@@ -14,6 +14,7 @@
     <modules>
         <module>product-crud</module>
         <module>mock-mvc-test</module>
+        <module>todo-mvc</module>
     </modules>
 
 
