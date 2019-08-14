@@ -3,30 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-projects</artifactId>
-        <groupId>com.examle</groupId>
+        <artifactId>javaguides</artifactId>
+        <groupId>net.javaguides</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.javaguides</groupId>
-    <artifactId>javaguides</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>spring-ioc-example</module>
-        <module>spring-bean-factory-example</module>
-        <module>spring-dependency-injection</module>
-    </modules>
+    <artifactId>spring-dependency-injection</artifactId>
+
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.1.0.RELEASE</version>
+            <version>4.0.0.RELEASE</version>
         </dependency>
-
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
-
 </project>
