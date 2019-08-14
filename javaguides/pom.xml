@@ -16,6 +16,7 @@
         <module>spring-ioc-example</module>
         <module>spring-bean-factory-example</module>
         <module>spring-dependency-injection</module>
+        <module>spring-dependson-annotation</module>
     </modules>
 
     <dependencies>
