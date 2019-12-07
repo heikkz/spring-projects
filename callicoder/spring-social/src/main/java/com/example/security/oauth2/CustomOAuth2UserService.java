@@ -3,6 +3,7 @@ package com.example.security.oauth2;
 import com.example.model.AuthProvider;
 import com.example.model.User;
 import com.example.repository.UserRepository;
+import com.example.security.UserPrincipal;
 import com.example.security.oauth2.user.OAuth2UserInfo;
 import com.example.security.oauth2.user.OAuth2UserInfoFactory;
 import org.springframework.beans.factory.annotation.Autowired;
