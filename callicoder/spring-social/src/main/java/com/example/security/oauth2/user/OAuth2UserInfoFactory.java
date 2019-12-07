@@ -1,5 +1,6 @@
 package com.example.security.oauth2.user;
 
+import com.example.exception.OAuth2AuthenticationProcessingException;
 import com.example.model.AuthProvider;
 
 import java.util.Map;

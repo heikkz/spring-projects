@@ -1,5 +1,6 @@
 package com.example.security.oauth2;
 
+import com.example.exception.OAuth2AuthenticationProcessingException;
 import com.example.model.AuthProvider;
 import com.example.model.User;
 import com.example.repository.UserRepository;

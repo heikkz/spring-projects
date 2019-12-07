@@ -1,6 +1,7 @@
 package com.example.security.oauth2;
 
 import com.example.config.AppProperties;
+import com.example.exception.BadRequestException;
 import com.example.security.TokenProvider;
 import com.example.util.CookieUtils;
 import org.springframework.beans.factory.annotation.Autowired;
